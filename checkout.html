@@ -1,0 +1,33 @@
+<!doctype html> <!-- Declara un documento HTML5. -->
+<html lang="es"> <!-- Identifica el idioma español. -->
+<head> <!-- Abre los datos generales de la página. -->
+<meta charset="UTF-8"> <!-- Permite escribir tildes. -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Adapta la página a pantallas pequeñas. -->
+<title>Checkout de práctica · Tienda en equipo</title> <!-- Define el título de la pestaña. -->
+<link rel="stylesheet" href="estilos.css"> <!-- Reutiliza los estilos de la tienda. -->
+</head> <!-- Cierra los datos generales. -->
+<body> <!-- Abre el contenido visible. -->
+<header class="cabecera"> <!-- Presenta el encabezado compartido. -->
+<p class="etiqueta">UNPAZ · DESARROLLO WEB · LABORATORIO GIT</p> <!-- Identifica la actividad. -->
+<h1>Checkout de práctica</h1> <!-- Presenta el formulario didáctico. -->
+<nav aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="checkout.html" aria-current="page">Checkout de práctica</a></nav> <!-- Permite volver al carrito. -->
+</header> <!-- Cierra la cabecera. -->
+<main> <!-- Abre el contenido principal. -->
+<section aria-labelledby="titulo-checkout"> <!-- Agrupa los campos de la maqueta sin crear un formulario que envíe datos. -->
+<p class="etiqueta">03 · REVISIÓN ENTRE COMPAÑEROS</p> <!-- Identifica el ejercicio de revisión. -->
+<h2 id="titulo-checkout">Datos de ejemplo</h2> <!-- Presenta los campos didácticos. -->
+<p class="aviso">Usá solo datos ficticios. Esta maqueta no envía, guarda ni procesa pagos.</p> <!-- Explica el uso adecuado de la demostración. -->
+<label for="nombre">Nombre ficticio</label> <!-- Asocia el rótulo con el campo de nombre. -->
+<input id="nombre" type="text" placeholder="Persona de ejemplo" autocomplete="off"> <!-- Recibe únicamente un nombre de práctica. -->
+<label for="tarjeta">Número de tarjeta ficticio</label> <!-- Describe el dato de ejemplo. -->
+<input id="tarjeta" type="text" placeholder="0000 0000 0000 0000" autocomplete="off"> <!-- Ofrece un campo de práctica sin destino de envío. -->
+<label for="cvv">Código de seguridad ficticio (CVV)</label> <!-- Asocia el rótulo al campo del ejercicio. -->
+<input id="cvv" type="password" placeholder="CVV" disabled autocomplete="off"> <!-- Reserva el campo que se habilitará durante la revisión. -->
+<p class="ayuda">El CVV permanece deshabilitado en esta maqueta.</p> <!-- Explica por qué el campo inicial no puede editarse. -->
+<button type="button" disabled>Continuar</button> <!-- Muestra un botón deshabilitado que no realiza pagos. -->
+</section> <!-- Cierra los campos de la maqueta. -->
+</main> <!-- Cierra el contenido principal. -->
+<footer>Maqueta educativa · Sin ventas ni pagos reales.</footer> <!-- Recuerda que es una práctica. -->
+</body> <!-- Cierra el contenido visible. -->
+</html> <!-- Finaliza el documento. -->
+

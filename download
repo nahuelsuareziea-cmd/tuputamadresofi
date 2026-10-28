@@ -1,0 +1,5 @@
+# Evita incluir metadatos de macOS.
+.DS_Store
+# Evita incluir miniaturas de Windows.
+Thumbs.db
+

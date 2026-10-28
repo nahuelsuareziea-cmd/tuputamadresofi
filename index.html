@@ -1,0 +1,36 @@
+<!doctype html> <!-- Declara que el documento utiliza HTML5. -->
+<html lang="es"> <!-- Define el español como idioma de la página. -->
+<head> <!-- Abre la información general del documento. -->
+<meta charset="UTF-8"> <!-- Permite mostrar tildes y caracteres españoles. -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Adapta la página al ancho de la pantalla. -->
+<title>Tienda en equipo · UNPAZ</title> <!-- Define el título de la pestaña. -->
+<link rel="stylesheet" href="estilos.css"> <!-- Carga los estilos compartidos. -->
+<script src="cart.js" defer></script> <!-- Carga el cálculo cuando el HTML está disponible. -->
+</head> <!-- Cierra la información general. -->
+<body> <!-- Abre el contenido visible. -->
+<header class="cabecera"> <!-- Agrupa el título y la navegación. -->
+<p class="etiqueta">UNPAZ · DESARROLLO WEB · LABORATORIO GIT</p> <!-- Identifica el propósito educativo. -->
+<h1>Tienda en equipo</h1> <!-- Presenta el nombre de la tienda de práctica. -->
+<p>Un cambio, una rama, una revisión.</p> <!-- Resume el trabajo colaborativo. -->
+<nav aria-label="Navegación principal"><a href="index.html" aria-current="page">Inicio</a><a href="checkout.html">Checkout de práctica</a><a href="equipo.html">Nuestro equipo</a></nav> <!-- Permite recorrer las dos páginas. -->
+</header> <!-- Cierra la cabecera. -->
+<main> <!-- Contiene la información principal. -->
+<section aria-labelledby="titulo-promos"> <!-- Abre el espacio de promociones. -->
+<p class="etiqueta">01 · PROMOCIONES</p> <!-- Identifica el primer bloque. -->
+<h2 id="titulo-promos">Carrusel de promociones</h2> <!-- Nombra el sector del ejercicio de conflicto, sin animación. -->
+<div class="promo">Ofertas de la semana</div> <!-- Esta es la línea compartida del ejercicio de promociones. -->
+</section> <!-- Cierra el espacio de promociones. -->
+<section aria-labelledby="titulo-carrito"> <!-- Abre la demostración del cálculo. -->
+<p class="etiqueta">02 · CARRITO</p> <!-- Identifica el segundo bloque. -->
+<h2 id="titulo-carrito">Probá el total</h2> <!-- Presenta la prueba del carrito. -->
+<label for="subtotal">Subtotal sin IVA</label> <!-- Describe el dato que se debe ingresar. -->
+<input id="subtotal" type="number" min="0" step="0.01" value="100"> <!-- Permite ingresar un subtotal válido. -->
+<button id="calcular" type="button">Calcular total</button> <!-- Ejecuta la demostración sin enviar formularios. -->
+<p class="resultado">Total con IVA del 21%: <output id="total" aria-live="polite"></output></p> <!-- Muestra el resultado y anuncia sus cambios. -->
+<p class="ayuda">El equipo debe comprobar el cálculo antes de aprobar el cambio.</p> <!-- Recuerda la revisión funcional. -->
+</section> <!-- Cierra la demostración del cálculo. -->
+</main> <!-- Cierra el contenido principal. -->
+<footer>Maqueta educativa · Sin ventas ni pagos reales.</footer> <!-- Aclara el alcance del sitio. -->
+</body> <!-- Cierra el contenido visible. -->
+</html> <!-- Finaliza el documento. -->
+

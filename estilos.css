@@ -1,0 +1,23 @@
+* { box-sizing: border-box; } /* Incluye rellenos y bordes dentro del ancho de cada elemento. */
+body { margin: 0; font-family: system-ui, sans-serif; color: #19334a; background: #eef3f8; line-height: 1.6; } /* Define tipografía, colores y espacio entre líneas. */
+.cabecera { padding: 40px max(24px, calc((100% - 1000px) / 2)); color: white; background: #123e65; } /* Destaca la cabecera con buen contraste. */
+h1 { margin: 8px 0; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.2; } /* Ajusta el título al tamaño de pantalla. */
+h2 { margin-top: 8px; line-height: 1.3; } /* Separa los títulos de sección. */
+.etiqueta { font-size: 0.78rem; font-weight: 750; letter-spacing: 0.12em; } /* Distingue los rótulos de cada bloque. */
+nav { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; } /* Distribuye los enlaces y permite que cambien de línea. */
+nav a { color: white; padding: 7px 12px; border: 1px solid #9ebbd4; border-radius: 6px; text-decoration: none; } /* Presenta enlaces visibles sobre el encabezado. */
+nav a[aria-current="page"] { background: white; color: #123e65; } /* Identifica la página actual. */
+main { max-width: 1048px; margin: 30px auto; padding: 0 24px; display: grid; gap: 24px; } /* Organiza el contenido en bloques separados. */
+section { background: white; border: 1px solid #d3dfe9; border-left: 5px solid #247399; border-radius: 10px; padding: 24px; } /* Dibuja tarjetas legibles. */
+.promo { padding: 18px; margin: 10px 0; background: #e8f4f3; border-radius: 6px; font-weight: 650; } /* Destaca las promociones sin agregar animaciones. */
+label { display: block; font-weight: 650; margin: 16px 0 6px; } /* Mantiene cada rótulo junto a su campo. */
+input { display: block; width: 100%; max-width: 420px; padding: 12px; border: 1px solid #7e94a8; border-radius: 6px; font: inherit; } /* Facilita escribir en computadora y celular. */
+button { margin-top: 18px; padding: 12px 18px; background: #123e65; color: white; border: 0; border-radius: 6px; font: inherit; font-weight: 650; cursor: pointer; } /* Presenta los controles principales. */
+button:disabled { background: #dee5eb; color: #4f6171; cursor: not-allowed; } /* Distingue los botones que no se pueden utilizar. */
+input:disabled { background: #eef2f5; } /* Distingue el campo aún deshabilitado. */
+:focus-visible { outline: 3px solid #c15719; outline-offset: 3px; } /* Hace visible el foco al navegar con teclado. */
+.resultado { font-size: 1.2rem; font-weight: 700; } /* Destaca el total del carrito. */
+.ayuda { color: #536679; font-size: 0.95rem; } /* Diferencia las explicaciones secundarias. */
+.aviso { padding: 14px; background: #fff3dc; border-left: 4px solid #a26400; } /* Señala que solo se deben usar datos ficticios. */
+footer { padding: 12px 24px 32px; text-align: center; color: #536679; } /* Cierra la página con una aclaración legible. */
+
